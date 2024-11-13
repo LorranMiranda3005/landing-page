@@ -12,13 +12,14 @@
 
 body {
     font-family: "Didact Gothic", sans-serif;
-    background-color: black;
+    background-color: #272727;
 }
 
 header {
     background-image: linear-gradient(to top, black, #272727);
     color: white;
-    height: 600px;
+    height: 628px;
+ 
     
 }
 .menu {
@@ -66,7 +67,7 @@ a {
 }
 
 #logo {
-    margin-top:  60px;
+    margin-top: 60px;
     height: 150px;
     width: 150px;
     background-image: url(../imagens/narniaLeao.png);
@@ -76,17 +77,22 @@ a {
   
 }
 
+
+
+
+
 .banner {
     text-align: center;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
     color: white;
     height: 635px;
-    margin-top: 15px;
+    
 
     background-image: url(../imagens/background.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
     display: flex;
     flex-flow :column;
@@ -101,39 +107,62 @@ a {
 }
 
 .banner > p {
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 500;
+    margin-top: 20px;
 }
 
 span {
     color:#DB9816
 }
 
-section {
+section.boas-vindas {
     background-color: #272727;
     height: 100%;
     text-align: center;
 
 }
 
-section > h2 {
+ h2.destilado {
+    text-align: center;
+    background-color: white;
     color: #DB9816;
     font-family: "Just Another Hand", cursive;
     font-size: 6em;
-    padding-top: 50%
+    margin-top: 50%;
+   
     
 }
 
-div > p {
-    color: #DB9816;
+p.chivas {
+    font-size: 0.8em;
+    text-align: center;
+    position:relative;
+    height: 155px;
+    width: 155px;
+    line-height: 155px;
+    border-radius: 50%;
+}
+
+div.whisky > p {
+    background-color: #DB9816;
+    color:#272727;
     font-family: "Just Another Hand", cursive;
     font-size: 3em;
-    padding-top: 70%;
+    margin-top: 30%;
+    text-align: center;
+    position: relative;
+    height: 155px;
+    width: 155px;
+    line-height: 155px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.247);
 
 }
 
 
 div.whisky {
+    
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
@@ -147,11 +176,7 @@ div.img1 {
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #DB9816;
-    height: 620px;
-    width: 100%;
-    margin: 10px;
-    margin-top: 200px;
-    margin-bottom: 200px
+   
    
 }
 
@@ -160,21 +185,92 @@ div.img2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #DB9816;
-    height: 620px;
-    width: 100%;
-    margin: 10px;
-    margin-bottom: 200px
+    
 }
 
 div.img3 {
     background-image: url(../imagens/pexels-madalina-enache-1540051428-27393241.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
+}
+
+.img1, .img2, .img3 {
     background-color: #DB9816;
     height: 620px;
     width: 100%;
     margin: 10px;
+    margin-top:  -55px;
     margin-bottom: 200px
 }
+
+
+
+
+div.cerveja {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.cerveja > p {
+    background-color: #DB9816;
+    color:#272727;
+    font-family: "Just Another Hand", cursive;
+    font-size: 3em;
+    margin-top: 30%;
+    text-align: center;
+    position: relative;
+    height: 155px;
+    width: 155px;
+    line-height: 155px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.247);
+}
+
+h2.gelada {
+    text-align: center;
+    background-color: white;
+    color: #DB9816;
+    font-family: "Just Another Hand", cursive;
+    font-size: 6em;
+    margin-top: 50%;
+    padding-bottom: 10px;
+}
+
+.cerva1 {
+    background-image: url(../imagens/cerveja1\ \(1\).jpg);
+    background-position: center bottom;
+  
+
+}
+
+.cerva2 {
+    background-image: url(../imagens/cerveja2\ \(2\).jpg);
+    background-position: center bottom;
+
+    
+
+}
+
+.cerva3 {
+    background-image: url(../imagens/cerveja3.jpg);
+    background-position: center bottom;
+
+}
+
+.cerva1,.cerva2, .cerva3 {
+    background-color: #DB9816;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    margin: 10px;
+    margin-top:  -59px;
+    margin-bottom: 200px
+
+}
+
 
 
